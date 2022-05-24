@@ -1,0 +1,24 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: #4d4d4d;
+}
+
+/* --------------------- */
+
+#ucapan-helloworld {
+    color: royalblue;
+    font-family: comic sans ms, sans-serif;
+    font-size: 70px;
+}
+
+.paragraf {
+    color: #4d4d4d;
+}
+
+.paragraf.underline{
+    text-decoration: underline;
+}
+

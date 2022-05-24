@@ -1,0 +1,122 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed:wght@300&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --font1: 'Poppins', sans-serif;
+    --font2: 'Roboto Condensed', sans-serif;
+    --font3: 'Roboto Slab', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font3);
+    font-weight: 400;
+}
+
+#sideNav .navbar-brand, .navbar-nav .nav-item .nav-link  {
+    font-family: var(--font2);
+}
+
+.content {
+    font-family: var(--font1);
+}
+
+.content .wrapper .social-media .ig:hover {
+    color: white;
+}
+
+#contact .wrapper form div .imput-item {
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+@media only screen and (min-width:1076px) {
+    
+}
+
+
+
+@media only screen and (min-width:992px) {
+    body {
+        padding-left: 500px;
+        padding-right: 100px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    #sideNav .navbar-brand, .navbar-nav .nav-item .nav-link {
+        font-size: 19px;
+    }
+    
+    .content {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;   
+    }
+    
+    #sideNav {
+        min-height: 100vh;
+        width: 400px; 
+    }
+
+    #sideNav .navbar-brand .image-profil {
+        margin-bottom: 30px;
+    }
+
+    
+    
+    
+    #sideNav .navbar-collapse {
+        align-items: center;
+    }
+    
+    #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .content {
+        /* align-items: baseline; */
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    #sideNav {
+        padding-left: 20px;
+        flex-direction: row;
+        text-align: center;
+    }
+
+   #skill {
+       margin-top: 100px;
+       
+   }
+
+   #skill .wrapper .row .d-flex .php {
+       margin-bottom: 120px;
+   }
+}
+
+@media only screen and (max-width:600px) {
+    #home {
+        margin-top: 100px;
+        
+    }
+    p {
+        font-size: 13px;
+    }
+}
